@@ -1,0 +1,128 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  background-color: azure ;
+}
+
+.hyperlink1{
+  text-decoration: none;
+  margin-right: 190px;
+  font-size: 0.85rem;
+  color: black;
+  font-weight: bold;
+}
+
+.hyperlink1:hover{
+  text-decoration: underline;
+  font-weight: bolder;
+  color: blue;
+}
+
+.symbol-lookup{
+  color:grey;
+}
+
+.statistics{
+  color:grey;
+}
+
+button{
+  background-color: black;
+  color: white;
+  border-radius: 7px;
+  cursor: pointer;
+  border: none;
+}
+
+.input-stock-button{
+  background-color: black;
+  color: white;
+  border-radius: 7px;
+  cursor: pointer;
+  border: none;
+  font-size: 1rem;
+  padding: 8px;
+  margin-right: 10px;
+}
+
+
+button:hover{
+  background-color: hsl(0, 1%, 21%);
+}
+
+.heading{
+  color:black;
+  font-size: 1.7rem;
+  font-weight: bolder;
+  margin-bottom: 3px;
+}
+
+.sub-heading{
+  color: black;
+}
+
+.table-heading{
+  color: black;
+}
+
+.refresh-button{
+  padding: 10px 12px;
+  border-radius: 7px;
+  border: none;
+  font-size: 1.5rem;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+
+.total-value{
+  color:black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+.inputs {
+  border: 1px solid #ccc; /* Set a consistent border color */
+  border-radius: 4px; /* Optional: Adds rounded corners */
+  padding: 8px; /* Add some padding for better appearance */
+  box-shadow: none; /* Remove any default shadow */
+  outline: none; /* Remove the default focus outline */
+  background-color: #fff; /* Ensure background color is white */
+  color: #333; /* Set the text color */
+  margin-left: 10px;
+  margin-bottom: 4px;
+  margin-top: 10px;
+}
+
+.inputs:focus {
+  border-color: black; /* Optional: Change border color on focus */
+}
+
+
+.edit-button{
+  padding: 5px 12px;
+  margin-bottom: 8px;
+}
+
+.delete-button{
+  
+  padding: 5px 5px;
+}
+
+.positive {
+  color: green;
+}
+
+.negative {
+  color: red;
+}
+
+.neutral {
+  color: black;
+}
+
+.baseline-value{
+  color: gray;
+  margin-bottom: 0;
+}
+
